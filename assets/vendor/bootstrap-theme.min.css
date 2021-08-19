@@ -1,0 +1,889 @@
+nav.navbar.navbar-light {
+    background: #ffffff
+        /* url(images/escheresque.png) */
+    ;
+    border-radius: 0;
+    border-bottom: 0px solid #e1e147;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+
+div.collapse.navbar-collapse {
+    display: none !important;
+}
+
+div.navbar-toggle.collapsed {
+    display: none !important;
+}
+
+a.navbar-brand.title img {}
+
+.navbar>.container-fluid {
+    padding-bottom: 0px
+}
+
+.navbar>.container-fluid .navbar-brand {
+    margin: 0;
+    padding: 5px 15px;
+}
+
+a.navbar-brand.menu {
+    padding: 10px !important;
+    height: auto;
+    background-color: #29b53f;
+    color: #fff;
+    margin-top: 10px !important;
+}
+
+div.title2 {
+    margin: 17px 5px 15px 5px;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.btn-logout {
+    float: right;
+    margin: 1px 0px 0px 0px;
+    padding: 18px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fd4444;
+}
+
+.btn-logout p {
+    color: #fd4444 !important;
+    font-weight: bold;
+}
+
+.btn-logout:hover {
+    text-decoration: none;
+}
+
+.btn-logout .glyphicon.glyphicon-off {
+    font-size: 25px;
+    color: #b10000;
+}
+
+.container-fluid.theme-showcase .container-fluid .panel.panel-info {
+    margin-bottom: 80px;
+}
+
+.container-fluid.theme-showcase {
+    min-height: 93%;
+    padding-top: 75px;
+    background-color: #d9d9d9;
+}
+
+.navbar.navbar-default.navbar-fixed-bottom {
+    /* background: #ff3115 url(images/escheresque.png); */
+    background: #d9d9d9;
+    position: initial;
+    border: 0;
+}
+
+.navbar-default .navbar-text {
+    color: #111;
+}
+
+.navbar-default .navbar-text a {
+    color: #b10000;
+}
+
+.title-app {
+    text-align: center;
+    color: #ec614e;
+    font-size: 35px;
+}
+
+.title-app img {
+    width: 400px;
+}
+
+.title-page {
+    text-align: center;
+    font-weight: bold;
+}
+
+.thumbhome {
+    width: 20%;
+}
+
+.icon-home {
+    border: 0px;
+    border-radius: 0;
+    color: #d9d9d9;
+    text-decoration: none;
+}
+
+.thumbnail {
+    background: none;
+}
+
+.thumbnail div>span {
+    font-size: 48px !important
+}
+
+.thumbnail div>div>span {
+    font-weight: bold;
+    font-size: 14px !important;
+    color: #459935;
+    padding: 0px;
+    line-height: 25px;
+}
+
+a.thumbnail.icon-home.active,
+a.thumbnail.icon-home:focus,
+a.thumbnail.icon-home:hover {
+    color: #459935;
+    text-decoration: none;
+    border: 0px solid #000000;
+}
+
+
+a.thumbnail.icon-home .fa.fa-bell:before {
+    background-image: url(../../images/logo_color/lonceng.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .fa.fa-bell:before {
+    background-image: url(../../images/logo_color/lonceng_hover.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .fa.fa-truck:before {
+    background-image: url(../../images/logo_color/truk.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .fa.fa-truck:before {
+    background-image: url(../../images/logo_color/truk_hover.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .fa.fa-cogs:before {
+    background-image: url(../../images/logo_color/mur.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .fa.fa-cogs:before {
+    background-image: url(../../images/logo_color/mur_hover.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .fa.fa-tasks:before {
+    background-image: url(../../images/logo_color/rack.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .fa.fa-tasks:before {
+    background-image: url(../../images/logo_color/rack_hover.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .fa.fa-line-chart:before {
+    background-image: url(../../images/logo_color/grafik.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .fa.fa-line-chart:before {
+    background-image: url(../../images/logo_color/grafik_hover.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .glyphicon-edit:before {
+    background-image: url(../../images/logo_color/change_password.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .glyphicon-edit:before {
+    background-image: url(../../images/logo_color/change_password_hover.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .fa.fa-users.m2:before {
+    background-image: url(../../images/logo_color/user_management.png);
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .fa.fa-users.m2:before {
+    background-image: url(../../images/logo_color/user_management_hover.png);
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .fa.fa-users.m7:before {
+    background-image: url(../../images/logo_color/master_pekerja_vendor.png);
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .fa.fa-users.m7:before {
+    background-image: url(../../images/logo_color/master_pekerja_vendor_hover.png);
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .fa.fa-users.m1:before {
+    background-image: url(../../images/logo_color/user_management_si.png);
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .fa.fa-users.m1:before {
+    background-image: url(../../images/logo_color/user_management_si_hover.png);
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .fa.fa-list:before {
+    background-image: url(../../images/logo_color/master_vendor.png);
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .fa.fa-list:before {
+    background-image: url(../../images/logo_color/master_vendor_hover.png);
+    background-size: 48px 48px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .fa.fa-building:before {
+    background-image: url(../../images/logo_color/working_permit_vendor.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .fa.fa-building:before {
+    background-image: url(../../images/logo_color/working_permit_vendor_hover.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .glyphicon.glyphicon-th:before {
+    background-image: url(../../images/logo_color/rfid_gate.png);
+    background-size: 55px 48px;
+    display: inline-block;
+    width: 55px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .glyphicon.glyphicon-th:before {
+    background-image: url(../../images/logo_color/rfid_gate_hover.png);
+    background-size: 55px 48px;
+    display: inline-block;
+    width: 55px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .glyphicon.glyphicon-gift:before {
+    background-image: url(../../images/logo_color/master_karyawan_gate.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .glyphicon.glyphicon-gift:before {
+    background-image: url(../../images/logo_color/master_karyawan_gate_hover.png);
+    background-size: 40px 48px;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .fa.fa-folder-open:before {
+    background-image: url(../../images/logo_color/testimonial.png);
+    background-size: 55px 48px;
+    display: inline-block;
+    width: 55px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .fa.fa-folder-open:before {
+    background-image: url(../../images/logo_color/testimonial_hover.png);
+    background-size: 55px 48px;
+    display: inline-block;
+    width: 55px;
+    height: 48px;
+    content: "";
+}
+
+/*add new AWP 07.12.20*/
+a.thumbnail.icon-home .fa.fa-folder-open-o:before {
+    background-image: url(../../images/logo_color/safety_officer.png);
+    background-size: 55px 48px;
+    display: inline-block;
+    width: 55px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .fa.fa-folder-open-o:before {
+    background-image: url(../../images/logo_color/safety_officer_hover.png);
+    background-size: 55px 48px;
+    display: inline-block;
+    width: 55px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home .fa.fa-comment-o:before {
+    background-image: url(../../images/logo_color/safety_talk.png);
+    background-size: 55px 48px;
+    display: inline-block;
+    width: 55px;
+    height: 48px;
+    content: "";
+}
+
+a.thumbnail.icon-home:hover .fa.fa-comment-o:before {
+    background-image: url(../../images/logo_color/safety_talk_hover.png);
+    background-size: 55px 48px;
+    display: inline-block;
+    width: 55px;
+    height: 48px;
+    content: "";
+}
+
+.main-sidebar a .glyphicon-edit:before {
+    background-image: url(../../images/logo/change_password.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a:hover .glyphicon-edit:before {
+    background-image: url(../../images/logo_color/change_password_hover.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a .fa.fa-users.m2:before {
+    background-image: url(../../images/logo/user_management.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a:hover .fa.fa-users.m2:before {
+    background-image: url(../../images/logo_color/user_management_hover.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a .fa.fa-users.m7:before {
+    background-image: url(../../images/logo/master_pekerja_vendor.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a:hover .fa.fa-users.m7:before {
+    background-image: url(../../images/logo_color/master_pekerja_vendor_hover.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a .fa.fa-users.m1:before {
+    background-image: url(../../images/logo/user_management_si.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a:hover .fa.fa-users.m1:before {
+    background-image: url(../../images/logo_color/user_management_si_hover.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a .fa.fa-list:before {
+    background-image: url(../../images/logo/master_vendor.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a:hover .fa.fa-list:before {
+    background-image: url(../../images/logo_color/master_vendor_hover.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a .fa.fa-building:before {
+    background-image: url(../../images/logo/working_permit_vendor.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a:hover .fa.fa-building:before {
+    background-image: url(../../images/logo_color/working_permit_vendor_hover.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a .glyphicon.glyphicon-th:before {
+    background-image: url(../../images/logo/rfid_gate.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a:hover .glyphicon.glyphicon-th:before {
+    background-image: url(../../images/logo_color/rfid_gate_hover.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a .glyphicon.glyphicon-gift:before {
+    background-image: url(../../images/logo/master_karyawan_gate.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a:hover .glyphicon.glyphicon-gift:before {
+    background-image: url(../../images/logo_color/master_karyawan_gate_hover.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a .fa.fa-folder-open:before {
+    background-image: url(../../images/logo/testimonial.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a:hover .fa.fa-folder-open:before {
+    background-image: url(../../images/logo_color/testimonial_hover.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+/*add new AWP 07.12.20*/
+.main-sidebar a .fa.fa-folder-open-o:before {
+    background-image: url(../../images/logo/safety_officer.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a:hover .fa.fa-folder-open-o:before {
+    background-image: url(../../images/logo_color/safety_officer_hover.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a .fa.fa-comment-o:before {
+    background-image: url(../../images/logo/safety_talk.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+.main-sidebar a:hover .fa.fa-comment-o:before {
+    background-image: url(../../images/logo_color/safety_talk_hover.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+
+/* button.btn-primary{background-color:#192531;border-color:#e1e147;color:#e1e147;} */
+/* button.btn-primary:hover,button.btn-primary:focus,button.btn-primary:active:focus,button.btn-primary:active{background-color:#e1e147;border-color:#192531;color:#192531;} */
+
+form {
+    margin-bottom: 0px;
+}
+
+table.table {
+    font-size: 12px !important;
+    margin-top: 25px;
+    float: left;
+}
+
+.panel-info {
+    border-color: #192531;
+}
+
+.table>tbody>tr>td,
+.table>tfoot>tr>td,
+.table>thead>tr>td,
+.table>tfoot>tr>th,
+.table>tbody>tr>th,
+.table>thead>tr>th {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background: none !important;
+}
+
+.table>tbody>tr>td,
+.table>tfoot>tr>td,
+.table>thead>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>th {
+    border-top: 1px solid #192531 !important;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    border-top: 1px solid #192531;
+}
+
+.table>thead>tr>th {
+    border-bottom: 2px solid #192531;
+}
+
+.table-bordered {
+    border: 1px solid #192531;
+}
+
+.panel {
+    border: 1px solid #192531;
+    margin-top: 0px;
+}
+
+.panel-body {}
+
+.panel-body .panel {
+    margin-top: 15px;
+}
+
+table.table {
+    border: 1px solid #192531;
+}
+
+div.controls>* {
+    margin-right: 10px;
+}
+
+.panel>.panel-heading {
+    border-color: #192531;
+}
+
+.panel.panel-info.login {
+    background: none;
+    border: 0;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.panel.panel-info.home {
+    background: none;
+    border: 0;
+}
+
+.panel.panel-info {
+    border: 0;
+}
+
+.btn.btn-primary {
+    background-color: #ec614e;
+    border: 1px solid #e1e147;
+    color: #e1e147;
+}
+
+/* Menu */
+.main-sidebar {
+    display: none;
+    background-color: #222d32;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 0px;
+    height: 100%;
+    width: 230px;
+    z-index: 810;
+    -webkit-transition: -webkit-transform .3s ease-in-out, width .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out, width .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out, width .3s ease-in-out;
+    transition: transform .3s ease-in-out, width .3s ease-in-out;
+
+    overflow-y: auto;
+}
+
+.sidebar {
+    padding-bottom: 10px;
+    display: block;
+}
+
+.sidebar a {
+    color: #d9d9d9;
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+}
+
+.sidebar-menu>li:hover>a,
+.sidebar-menu>li.active>a,
+.sidebar-menu>li.menu-open>a {
+    color: #459935;
+    background: #1e282c;
+}
+
+.sidebar-menu,
+.main-sidebar .user-panel,
+.sidebar-menu>li.header {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sidebar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-menu>li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.sidebar-menu li>a {
+    position: relative;
+}
+
+.sidebar-menu>li>a {
+    padding: 12px 5px 12px 15px;
+    display: block;
+}
+
+.sidebar-menu>li>a:focus {
+    color: #459935;
+    background: #1e282c;
+    text-decoration: none;
+}
+
+.sidebar-menu>li>a>.fa,
+.sidebar-menu>li>a>.glyphicon,
+.sidebar-menu>li>a>.ion {
+    width: 20px;
+}
+
+body.menu-open nav.navbar.navbar-light {
+    padding-left: 230px;
+    box-sizing: border-box;
+}
+
+body.menu-open .container-fluid.theme-showcase {
+    margin-left: 230px;
+}
+
+body.menu-open .navbar.navbar-default.navbar-fixed-bottom {
+    padding-left: 127px;
+    box-sizing: border-box;
+}
+
+body.menu-open .main-sidebar {
+    display: block;
+}
+
+.thumbnail div>span.icon {
+    padding: 22px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 65px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.login .btn-primary {
+    background-color: #459935;
+    color: #ffffff;
+    border: none;
+}
+
+.login .thumbnail img {
+    height: 100px;
+}
+
+.logo-datar {
+    height: 25px;
+    margin: 15px;
+}
+
+.dateandtime {
+    width: 100px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.clock {
+    width: 100%;
+    float: right;
+}
+
+.blinksec {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}

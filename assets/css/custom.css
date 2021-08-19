@@ -1,0 +1,253 @@
+@font-face {
+	font-family: Poppins-Regular;
+	src: url("../font/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+	font-family: Poppins-Medium;
+	src: url("../font/poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url("../font/montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+	font-family: Montserrat-Medium;
+	src: url("../font/montserrat/Montserrat-Medium.ttf");
+}
+
+
+/* login page */
+.bg-image {
+	background-image: url("../img/bg-image.jpg");
+	/* background-position: center;
+	background-size: cover; */
+}
+.btn-custom {
+	background-color:#eb1c24;
+	color:#fff;
+}
+
+.btn-custom:hover {
+	background-color:#fff;
+	color:#000;
+}
+
+.bg-login-img,
+.bg-register-img {
+	background: url("../img/sig.png");
+	background-position: center;
+	background-size: cover;
+}
+
+/* profil page */
+.custom-profil img {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.custom-profil h5 {
+	margin-top: 20px;
+	font-family: Poppins-Regular, Helvetica, sans-serif;
+}
+
+/* custom font */
+.custom-font {
+	font-family: Poppins-Regular, sans-serif !important;
+
+}
+
+/* custom bg sidebar */
+.bg-gradient-img {
+	background-image: linear-gradient(to left, #d93cff, #5a2cc7, #d93cff);
+	background-size: 200%;
+}
+
+/* custom bg 403 error */
+.bg-error .error {
+	margin-top: 20px;
+}
+
+.bg-error img {
+	height: 100%;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.kotak {
+	display: inline-block;
+	padding: 0.25em 0.4em;
+	font-size: 75%;
+	font-weight: 800;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 2px;
+}
+
+.kotak:empty {
+	display: none;
+}
+
+.btn .kotak {
+	position: relative;
+	top: -1px;
+}
+
+.kotak-pill {
+	padding-right: 0.2em;
+	padding-left: 0.2em;
+	border-radius: 10rem;
+}
+
+.kotak-primary {
+	color: #fff;
+	background-color: #7460ee;
+}
+
+.kotak-primary[href]:hover,
+.kotak-primary[href]:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: #4c32e9;
+}
+
+.kotak-secondary {
+	color: #fff;
+	background-color: #6c757d;
+}
+
+.kotak-secondary[href]:hover,
+.kotak-secondary[href]:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: #545b62;
+}
+
+.kotak-success {
+	color: #fff;
+	background-color: #36bea6;
+}
+
+.kotak-success[href]:hover,
+.kotak-success[href]:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: #2b9683;
+}
+
+.kotak-info {
+	color: #fff;
+	background-color: #2962FF;
+}
+
+.kotak-info[href]:hover,
+.kotak-info[href]:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: #0041f5;
+}
+
+.kotak-warning {
+	color: #212529;
+	background-color: #ffbc34;
+}
+
+.kotak-warning[href]:hover,
+.kotak-warning[href]:focus {
+	color: #212529;
+	text-decoration: none;
+	background-color: #ffab01;
+}
+
+.kotak-danger {
+	color: #fff;
+	background-color: #f62d51;
+}
+
+.kotak-danger[href]:hover,
+.kotak-danger[href]:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: #e60a31;
+}
+
+.kotak-light {
+	color: #212529;
+	background-color: #f8f9fa;
+}
+
+.kotak-light[href]:hover,
+.kotak-light[href]:focus {
+	color: #212529;
+	text-decoration: none;
+	background-color: #dae0e5;
+
+}
+
+.kotak-dark {
+	color: #fff;
+	background-color: #343a40;
+}
+
+.kotak-dark[href]:hover,
+.kotak-dark[href]:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: #1d2124;
+}
+
+.kotak-cyan {
+	color: #212529;
+	background-color: #4fc3f7;
+}
+
+.kotak-cyan[href]:hover,
+.kotak-cyan[href]:focus {
+	color: #212529;
+	text-decoration: none;
+	background-color: #1eb2f5;
+}
+
+.kotak-orange {
+	color: #212529;
+	background-color: #fb8c00;
+}
+
+.kotak-orange[href]:hover,
+.kotak-orange[href]:focus {
+	color: #212529;
+	text-decoration: none;
+	background-color: #c87000;
+}
+
+.kotak-purple {
+	color: #fff;
+	background-color: #7460ee;
+}
+
+.badge-purple[href]:hover,
+.kotak-purple[href]:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: #4c32e9;
+}
+
+@media (min-width: 768px) {
+
+	/* profil */
+	.custom-img img {
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+	}
+
+	.bg-error .error {
+		margin-top: 200px;
+	}
+
+}
